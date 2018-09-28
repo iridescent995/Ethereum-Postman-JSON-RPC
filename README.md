@@ -52,3 +52,23 @@ curl --request POST \
 	"id":1
 }'
 ```
+### POST call
+Executes a new message call immediately without creating a transaction on the block chain.
+```
+curl --request POST \
+  --url 'http://localhost:8545/' \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"jsonrpc":"2.0",
+	"method":"eth_call",
+	"params":[{
+		"from": "",
+		"to": "",
+		"gas": "",
+		"gasPrice": "",
+		"value": "",
+		"data": ""
+	}, "latest"],
+	"id":1
+}'
+```
