@@ -72,3 +72,5 @@ curl --request POST \
 	"id":1
 }'
 ```
+
+https://documenter.getpostman.com/view/4117254/ethereum-json-rpc/RVu7CT5J#ac5be134-204f-3aa2-d527-e973cc2df968
